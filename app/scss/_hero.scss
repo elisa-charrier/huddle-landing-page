@@ -40,7 +40,7 @@
 }
 
 /* Dekstop Layout */
-@media only screen and (min-width: $mobile) {
+@media only screen and (min-width: 768px) {
     .hero {
         flex-wrap: nowrap;
         margin-top: 5.72rem;

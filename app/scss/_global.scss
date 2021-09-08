@@ -1,4 +1,6 @@
 /* Mobile Layout */
+
+// For mobile devices, low resolution tablets and Ipads
 html {
     box-sizing: border-box;
     font-size: 100%;
@@ -23,6 +25,10 @@ body {
     color: #fff;
     text-align: center;
     line-height: 2rem;
+    
+    .page {
+        max-width: $mobile;
+    }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -44,14 +50,21 @@ a {
 }
 
 /* Dekstop Layout */
-@media only screen and (min-width: $mobile) {
+
+// For tablets and Ipads portrait mode, laptops, dekstops and large screens
+@media only screen and (min-width: 768px) {
     body {
         background-image: url("../../app/img/bg-desktop.svg");
         background-size: cover;
+        height: 100%;
 
         font-size: 1.1rem;
         line-height: 2.1rem;
         text-align: left;
+
+        .page {
+            max-width: $dekstop;
+        }
     }
 
     h1, h2, h3, h4, h5, h6 {

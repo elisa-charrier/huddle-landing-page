@@ -41,7 +41,7 @@ footer {
 }
 
 /* Dekstop Layout */
-@media only screen and (min-width: $mobile) {
+@media only screen and (min-width: 768px) {
     footer {
         align-items: flex-end;
         margin-top: 1.43rem;
