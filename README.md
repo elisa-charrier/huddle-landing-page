@@ -27,8 +27,8 @@ Users should be able to:
 
 This was my first time facing a Frontend Mentor Challenge. Here are some screenshots of the result:
 
-![](./app/img/screenshots/webpage-mobile.jpg)
-![](./app/img/screenshots/webpage-dekstop.jpg)
+![Mobile webpage](./app/img/screenshots/webpage-mobile.png)
+![Dekstop webpage](./app/img/screenshots/webpage-dekstop.png)
 
 ## My process
 
