@@ -46,6 +46,7 @@ This was my first time facing a Frontend Mentor Challenge. Here are some screens
 2. How to simplify my CSS using SASS preprocessor
 3. How to use a mobile-first workflow
 4. How to pay attention to details
+5. How to choose the best design according to device screen size
 
 ### Continued development
 
