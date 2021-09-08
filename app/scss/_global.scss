@@ -1,0 +1,61 @@
+/* Mobile Layout */
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $violet;
+    background-image: url("../../app/img/bg-mobile.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+
+    font-family: $bFamily;
+    font-weight: $bNormalWeight;
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    line-height: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $hFamily;
+    font-weight: $hBoldWeight;
+    font-size: 1.44rem;
+}
+
+button {
+    border: none;
+
+    font-family: $hFamily;
+    font-weight: $hNormalWeight;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Dekstop Layout */
+@media only screen and (min-width: $mobile) {
+    body {
+        background-image: url("../../app/img/bg-desktop.svg");
+        background-size: cover;
+
+        font-size: 1.1rem;
+        line-height: 2.1rem;
+        text-align: left;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+}

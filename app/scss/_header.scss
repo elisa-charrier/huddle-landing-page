@@ -1,0 +1,28 @@
+/* Mobile Layout */
+header {
+    margin-top: 2.09rem;
+    padding-left: 2.09rem;
+
+    .logo {
+        background-image: url("../../app/img/logo.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        width: 122px;
+        height: 22px;
+    }
+}
+
+/* Dekstop Layout */
+@media only screen and (min-width: $mobile) {
+    header {
+        margin-top: 3.41rem;
+        padding-left: 4.4rem;
+
+        .logo {
+            width: 200px;
+            height: 35px;
+        }
+    }
+}
