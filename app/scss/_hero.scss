@@ -69,3 +69,14 @@
         }
     }   
 }
+
+// Layout for tablets/ Ipads portrait mode and Laptops
+@media only screen and (min-width: 768px) and (max-width: 1120px) {
+    .hero {
+        align-items: center;
+
+        &__content {
+            margin-top: 0;
+        }
+    }
+}

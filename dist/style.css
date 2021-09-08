@@ -17,6 +17,12 @@ html {
 }
 
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #674baf;
   background-image: url("../../app/img/bg-mobile.svg");
   background-size: contain;
@@ -28,6 +34,10 @@ body {
   color: #fff;
   text-align: center;
   line-height: 2rem;
+}
+
+body .page {
+  max-width: 375px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -48,7 +58,7 @@ a {
 }
 
 /* Dekstop Layout */
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 768px) {
   body {
     background-image: url("../../app/img/bg-desktop.svg");
     background-size: cover;
@@ -56,6 +66,9 @@ a {
     font-size: 1.1rem;
     line-height: 2.1rem;
     text-align: left;
+  }
+  body .page {
+    max-width: 1440px;
   }
   h1, h2, h3, h4, h5, h6 {
     font-size: 2rem;
@@ -79,7 +92,7 @@ header .logo {
 }
 
 /* Dekstop Layout */
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 768px) {
   header {
     margin-top: 3.41rem;
     padding-left: 4.4rem;
@@ -139,7 +152,7 @@ header .logo {
 }
 
 /* Dekstop Layout */
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 768px) {
   .hero {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
@@ -162,6 +175,17 @@ header .logo {
     height: 3.3rem;
     border-radius: 1.65rem;
     font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1120px) {
+  .hero {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .hero__content {
+    margin-top: 0;
   }
 }
 
@@ -227,7 +251,7 @@ footer .attribution a {
 }
 
 /* Dekstop Layout */
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 768px) {
   footer {
     -webkit-box-align: end;
         -ms-flex-align: end;

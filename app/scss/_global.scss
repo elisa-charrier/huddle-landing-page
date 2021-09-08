@@ -13,6 +13,9 @@ html {
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    
     background-color: $violet;
     background-image: url("../../app/img/bg-mobile.svg");
     background-size: contain;
@@ -63,7 +66,7 @@ a {
         text-align: left;
 
         .page {
-            max-width: $dekstop;
+            max-width: $desktop;
         }
     }
 
