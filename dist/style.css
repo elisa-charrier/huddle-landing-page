@@ -24,7 +24,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #674baf;
-  background-image: url("../../app/img/bg-mobile.svg");
+  background-image: url("../app/img/bg-mobile.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top;
@@ -60,7 +60,7 @@ a {
 /* Dekstop Layout */
 @media only screen and (min-width: 768px) {
   body {
-    background-image: url("../../app/img/bg-desktop.svg");
+    background-image: url("../app/img/bg-desktop.svg");
     background-size: cover;
     height: 100%;
     font-size: 1.1rem;
@@ -83,7 +83,7 @@ header {
 }
 
 header .logo {
-  background-image: url("../../app/img/logo.svg");
+  background-image: url("../app/img/logo.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

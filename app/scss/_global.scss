@@ -17,7 +17,7 @@ body {
     justify-content: center;
     
     background-color: $violet;
-    background-image: url("../../app/img/bg-mobile.svg");
+    background-image: url("../app/img/bg-mobile.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
@@ -57,7 +57,7 @@ a {
 // For tablets and Ipads portrait mode, laptops, dekstops and large screens
 @media only screen and (min-width: 768px) {
     body {
-        background-image: url("../../app/img/bg-desktop.svg");
+        background-image: url("../app/img/bg-desktop.svg");
         background-size: cover;
         height: 100%;
 
